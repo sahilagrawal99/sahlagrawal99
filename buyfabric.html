@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Fabric - Tina Alteration</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .fabric-section {
+      padding: 40px;
+      text-align: center;
+    }
+    .fabric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .fabric-box {
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    .fabric-box:hover {
+      transform: scale(1.05);
+      background-color: #e0e0e0;
+    }
+    .fabric-box img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .footer-note {
+      margin-top: 50px;
+      font-size: 25px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="welcome-section">
+    <h1>Do you want to buy fabric to sew clothes?</h1>
+    <p>Here are some options<<<</p>
+  </header>
+
+  <section class="fabric-section">
+    <div class="fabric-grid">
+      <div class="fabric-box">
+        <img src="cotton.jpg" alt="Cotton Fabric">
+        <p><strong>Cotton Fabric</strong></p>
+      </div>
+      <div class="fabric-box">
+        <img src="silk.jpg" alt="Silk Fabric">
+        <p><strong>Silk Fabric</strong></p>
+      </div>
+      <div class="fabric-box">
+        <img src="nylon.jpg" alt="Nylon Fabric">
+        <p><strong>Nylon Fabric</strong></p>
+      </div>
+      
+      <div class="fabric-box">
+        <img src="valvet.jpg" alt="Velvet Fabric">
+        <p><strong>Velvet Fabric</strong></p>
+      </div>
+      <div class="fabric-box">
+        <img src="reyon.jpg" alt="Rayon Fabric">
+        <p><strong>Rayon Fabric</strong></p>
+      </div>
+      <div class="fabric-box">
+        <img src="canvas.jpg" alt="Canvas Fabric">
+        <p><strong>Canvas Fabric</strong></p>
+      </div>
+    </div>
+    <div class="footer-note">
+      <p><strong><u>Note</u>:</strong> Regular colors will be available, and if you want something new, contact us three or four days in advance..</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Tina Alteration</p>
+  </footer>
+<a href="index.html" class="back-button">Back to Homepage</a>
+
+</body>
+</html>

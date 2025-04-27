@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learn Sewing - Tina Alteration </title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .course-section {
+      padding: 40px;
+      text-align: center;
+    }
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .course-box {
+      padding: 20px;
+      background-color: #ffe6f0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    .course-box:hover {
+      transform: scale(1.05);
+      background-color: #ffccdd;
+    }
+    .course-box a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      display: block;
+    }
+    .footer-note {
+      margin-top: 50px;
+      font-size: 16px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="welcome-section">
+    <h1>Do you want to learn sewing?</h1>
+    <p>Here are some courses<<<</p>
+  </header>
+
+  <section class="course-section">
+    <div class="course-grid">
+      <div class="course-box">
+        <a href="learn-demo.html">For Demo Class</a>
+      </div>
+      <div class="course-box">
+        <a href="learn-1month.html">For 1 Month Class</a>
+      </div>
+      <div class="course-box">
+        <a href="learn-3month.html">For 3 Month Class</a>
+      </div>
+      <div class="course-box">
+        <a href="learn-6month.html">For 6 Month Class</a>
+      </div>
+      <div class="course-box">
+        <a href="learn-1year.html">For 1 Year Class</a>
+      </div>
+      <div class="course-box">
+        <a href="learn-1_5year.html">For 1.5 Year Class</a>
+      </div>
+    </div>
+
+    <div class="footer-note">
+     <big> <p><strong>Note:</strong> Sewing will be taught offline only.</p></big>
+    </div>
+  </section>
+
+  <footer>
+    <p>Tina Alteration </p>
+  </footer>
+<a href="index.html" class="back-button">Back to Homepage</a>
+
+</body>
+</html>
