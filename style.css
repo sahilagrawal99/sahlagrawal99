@@ -1,0 +1,191 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  text-align: center; /* Center everything by default */
+}
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+/* Header Section */
+.welcome-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.welcome-section h1 {
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 10px;
+}
+.welcome-section p {
+  font-size: 1.2em;
+ font-family: Arial, sans-serif;
+ color: white;
+background-color: black;
+}
+/* How can we help you Section */
+.help-section {
+  background-color: black;
+  padding: 20px 20px;
+}
+.help-section h2 {
+  font-size: 2.5em;
+  color: white;
+  font-weight: 500;
+}
+/* Four Boxes Section */
+.boxes-section {
+  display: flex;
+  justify-content: center;  /* Center the boxes */
+  gap: 100px;
+  padding: 40px;
+}
+.box {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0.1, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.box h3 {
+  font-size: 1.4em;
+  color: #f39c12;
+  margin: 0;
+  text-align: center;
+}
+.box:hover {
+  transform: scale(1.50);
+}
+/* Remove underline from links in the boxes */
+.box a {
+  text-decoration: none; /* This removes the underline */
+}
+/* Best Service Section */
+.service-section {
+  background-color: #f39c12;
+  color: white;
+  padding: 40px 20px;
+}
+.service-section h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+}
+/* Back Button Style */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.back-button:hover
+{ 
+background-color: red;
+transform: scale(1.10);
+}
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.contact-button:hover {
+  background-color: #45a049;
+}
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+/*second page*/
+/* Hover Effect */
+.clothing-item:hover {
+  transform: scale(1.10);
+}
+/* Clothing Options */
+.clothing-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.clothing-item {
+  text-align: center;
+}
+.clothing-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.clothing-item img:hover {
+  transform: scale(1.05);
+}
+.content-section h2 {
+  font-size: 2.5em;
+  color: #f39c12;
+  margin-bottom: 20px;
+}
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.product-item p {
+  margin-top: 10px;
+  color: #f39c12;
+}
+/* Product Gallery */
+.product-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
